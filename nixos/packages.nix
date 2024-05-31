@@ -6,7 +6,6 @@
 
   environment.systemPackages = with pkgs; [
     # Desktop apps
-    chromium
     telegram-desktop
     alacritty
     obs-studio
@@ -21,7 +20,7 @@
     pcmanfm-qt
 
     # Coding stuff
-    gnumake
+    vscode
     gcc
     nodejs
     python
@@ -48,7 +47,6 @@
     zip
     ntfs3g
     yt-dlp
-    brightnessctl
     swww
     openssl
     lazygit
@@ -64,7 +62,7 @@
     gromit-mpx
 
     # Xorg stuff
-    #xterm
+    xterm
     #xclip
     #xorg.xbacklight
 
@@ -74,11 +72,9 @@
     cliphist
 
     # WMs and stuff
-    herbstluftwm
     hyprland
     seatd
     xdg-desktop-portal-hyprland
-    polybar
     waybar
 
     # Sound
@@ -87,9 +83,9 @@
     pamixer
 
     # GPU stuff 
-    amdvlk
-    rocm-opencl-icd
-    glaxnimate
+    # amdvlk
+    # rocm-opencl-icd
+    # glaxnimate
 
     # Screenshotting
     grim

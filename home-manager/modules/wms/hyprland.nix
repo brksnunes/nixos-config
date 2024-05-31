@@ -23,8 +23,8 @@
       };
 
       input = {
-        kb_layout = "us,ru";
-        kb_variant = "lang";
+        kb_layout = "us";
+        kb_variant = "alt-intl";
         kb_options = "grp:caps_toggle";
 
         follow_mouse = 1;
@@ -38,8 +38,8 @@
 
       general = {
         gaps_in = 5;
-        gaps_out = 20;
-        border_size = 3;
+        gaps_out = 5;
+        border_size = 2;
         "col.active_border" = "rgba(33ccffee) rgba(00ff99ee) 45deg";
         "col.inactive_border" = "rgba(595959aa)";
 

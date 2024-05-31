@@ -19,13 +19,13 @@
       touchpad.accelProfile = "flat";
     };
     
-    hardware.opengl = {
+      hardware.opengl = {
     enable = true;
     driSupport = true;
     driSupport32Bit = true;
   };
-   services.xserver.videoDrivers = [ "nvidia" ];
-   hardware.nVidia.modesetting.enable = true;
+  services.xserver.videoDrivers = [ "nvidia" ];
+  hardware.nVidia.modesetting.enable = true;
 
     # videoDrivers = [ "nvidia" ];
     # deviceSection = ''Option "TearFree" "True"'';

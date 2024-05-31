@@ -11,6 +11,6 @@
     ./hyprland.nix
     ./trim.nix
     ./bluetooth.nix
-    ./graphics.nix
+    ./nixvim/nixvim.nix
   ];
 }
